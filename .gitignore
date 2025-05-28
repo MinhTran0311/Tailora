@@ -1,56 +1,69 @@
 # Dependencies
-node_modules/
-.pnp/
-.pnp.js
+**/node_modules/
+**/.pnp/
+**/.pnp.js
 
 # Testing
-coverage/
+**/coverage/
 
 # Production
-build/
-dist/
-out/
+**/build/
+**/dist/
+**/out/
+**/tmp/
+**/out-tsc/
+**/bazel-out/
 
 # Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.env
-.venv
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/*.so
+**/.Python
+**/env/
+**/venv/
+**/.env
+**/.venv
+**/pip-log.txt
+**/pip-delete-this-directory.txt
+**/.tox/
+**/.coverage
+**/.coverage.*
+**/.cache
+**/nosetests.xml
+**/coverage.xml
+**/*.cover
+**/*.py,cover
+**/.hypothesis/
+**/.pytest_cache/
 
 # IDEs and editors
-.idea/
-.vscode/
-*.swp
-*.swo
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+**/.idea/
+**/.vscode/*
+!**/.vscode/settings.json
+!**/.vscode/tasks.json
+!**/.vscode/launch.json
+!**/.vscode/extensions.json
+**/*.swp
+**/*.swo
+**/.DS_Store
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
 
 # Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+**/logs
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
 
 # Angular
-.angular/ 
+**/.angular/
+**/.angular/cache
+**/.sass-cache/
+
+# System Files
+**/.DS_Store
+**/Thumbs.db 
